@@ -1,0 +1,27 @@
+body{
+	background: #000;
+	color: #fff;
+}
+.hmd{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	font-size: 130px;
+	font-weight: 800;
+	font-family: algerian;
+	text-align: center;
+	/*lets add the image*/
+	background-image: url("TT.png");
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip:text;
+	animation: MoverBars 80s linear infinite
+}
+@keyframes MoverBars{
+	0%{
+		background-position: 0% 30%;
+	}
+	100%{
+		background-position: 100% 50%;
+	}
+}
